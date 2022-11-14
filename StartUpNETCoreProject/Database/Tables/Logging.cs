@@ -2,7 +2,7 @@
 
 namespace StartUpNETCoreProject.Database.Tables
 {
-    public class Logging : ITableModel
+    public class Logging
     {
         [Required]
         public int Id { get; set; }
