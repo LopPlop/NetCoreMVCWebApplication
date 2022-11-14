@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dominator\\source\\repos\\StartUpNETCoreProject\\StartUpNETCoreProject\\StartUpNETCoreProject.csproj": {}
+    "C:\\Users\\Bruh\\Documents\\GitHub\\NetCoreMVCWebApplication\\StartUpNETCoreProject\\StartUpNETCoreProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dominator\\source\\repos\\StartUpNETCoreProject\\StartUpNETCoreProject\\StartUpNETCoreProject.csproj": {
+    "C:\\Users\\Bruh\\Documents\\GitHub\\NetCoreMVCWebApplication\\StartUpNETCoreProject\\StartUpNETCoreProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dominator\\source\\repos\\StartUpNETCoreProject\\StartUpNETCoreProject\\StartUpNETCoreProject.csproj",
+        "projectUniqueName": "C:\\Users\\Bruh\\Documents\\GitHub\\NetCoreMVCWebApplication\\StartUpNETCoreProject\\StartUpNETCoreProject.csproj",
         "projectName": "StartUpNETCoreProject",
-        "projectPath": "C:\\Users\\Dominator\\source\\repos\\StartUpNETCoreProject\\StartUpNETCoreProject\\StartUpNETCoreProject.csproj",
-        "packagesPath": "C:\\Users\\Dominator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dominator\\source\\repos\\StartUpNETCoreProject\\StartUpNETCoreProject\\obj\\",
+        "projectPath": "C:\\Users\\Bruh\\Documents\\GitHub\\NetCoreMVCWebApplication\\StartUpNETCoreProject\\StartUpNETCoreProject.csproj",
+        "packagesPath": "C:\\Users\\Bruh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bruh\\Documents\\GitHub\\NetCoreMVCWebApplication\\StartUpNETCoreProject\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\SIP\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Dominator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Bruh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +43,18 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +74,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
