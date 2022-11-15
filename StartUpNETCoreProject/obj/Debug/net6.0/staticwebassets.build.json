@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tXU33+1TjP9oYYKtSFPeAlg0B39i5lMfMJBBHSpVIRY=",
+  "Hash": "Z2sNuvd+ZZGdxX5j0XGmZX/WjpIH1TIp1wGCZFVJwe0=",
   "Source": "StartUpNETCoreProject",
   "BasePath": "_content/StartUpNETCoreProject",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\Bruh\\Documents\\GitHub\\NetCoreMVCWebApplication\\StartUpNETCoreProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\StartUpNETCoreProject.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\Bruh\\Documents\\GitHub\\NetCoreMVCWebApplication\\StartUpNETCoreProject\\wwwroot\\css\\signin.css",
+      "SourceId": "StartUpNETCoreProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Bruh\\Documents\\GitHub\\NetCoreMVCWebApplication\\StartUpNETCoreProject\\wwwroot\\",
+      "BasePath": "_content/StartUpNETCoreProject",
+      "RelativePath": "css/signin.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\signin.css"
     },
     {
       "Identity": "C:\\Users\\Bruh\\Documents\\GitHub\\NetCoreMVCWebApplication\\StartUpNETCoreProject\\wwwroot\\css\\site.css",
@@ -134,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\Bruh\\Documents\\GitHub\\NetCoreMVCWebApplication\\StartUpNETCoreProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.4.0.0.css",
+      "SourceId": "StartUpNETCoreProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Bruh\\Documents\\GitHub\\NetCoreMVCWebApplication\\StartUpNETCoreProject\\wwwroot\\",
+      "BasePath": "_content/StartUpNETCoreProject",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.4.0.0.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.4.0.0.css"
     },
     {
       "Identity": "C:\\Users\\Bruh\\Documents\\GitHub\\NetCoreMVCWebApplication\\StartUpNETCoreProject\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",

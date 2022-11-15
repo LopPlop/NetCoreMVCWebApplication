@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using StartUpNETCoreProject.Database.Tables.TableHandlers;
 using StartUpNETCoreProject.Models;
 using System.Diagnostics;
 
@@ -6,14 +7,25 @@ namespace StartUpNETCoreProject.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly LoggingHandler loggingHandler;
+        
+        /*public HomeController(LoggingHandler loggingHandler)
         {
-            _logger = logger;
+            loggingHandler = loggingHandler;
+        }*/
+
+        
+        public IActionResult Index()
+        {
+            return View();
         }
 
-        public IActionResult Index()
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        public IActionResult Register()
         {
             return View();
         }

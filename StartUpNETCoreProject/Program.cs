@@ -1,10 +1,13 @@
 using Microsoft.EntityFrameworkCore;
 using StartUpNETCoreProject.Database;
 
+
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<AppDBContext>(x => x.UseSqlServer(
-    "Data Source=(local); Database=EntityDBCore; Persist Security Info=False; TrustServerCertificate=True; MultipleActiveResultSets=True; Trusted_Connection=True;"
+    "DefaultConnection"
     ));
 
 // Add services to the container.
@@ -26,6 +29,7 @@ app.UseStaticFiles();
 app.UseRouting();
 
 app.UseAuthorization();
+app.UseAuthentication();
 
 app.MapControllerRoute(
     name: "default",
